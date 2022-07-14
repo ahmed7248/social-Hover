@@ -1,0 +1,49 @@
+body {
+  box-sizing: border-box;
+  background-color: #393838;
+}
+h2{
+  color: #F8BBD0;
+}
+.Container {
+  display: flex;
+}
+.icon {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 2em;
+  height: 2em;
+  color: #393838;
+  font-size: 2.5em;
+  margin: 1rem;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #e9e5e5;
+  box-shadow: 12px 12px 24px #c6c3c3, 4px 4px 0px #fff;
+}
+.heart:hover {
+  color: #f162aa;
+  cursor: pointer;
+}
+.react:hover {
+  color: #09B83E;
+  cursor: pointer;
+}
+.instagram:hover {
+  color: #FF3300;
+  cursor: pointer;
+}
+.css:hover {
+  color: #0061FF;
+  cursor: pointer;
+}
+.heart:active,.react:active,.instagram:active,.css:active {
+  transform: scale(1.1);
+  transition: box-shadow .3s, transform 6s cubic-bezier(.5, 4, 1, 2);
+  box-shadow: inset -2px -2px 8px #ffffff,
+    inset -2px -2px 12px #ffffff80 
+    inset 2px 2px 4px #ffffff1a 
+    inset 2px 2px 8px #00000026;
+}
